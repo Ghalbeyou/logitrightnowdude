@@ -28,7 +28,7 @@ to warn to console, you can do:
 const logitdude = require('logitrightnowdude');
 logitdude.warn("Warn!");
 ```
-to log installed javascript, you can do:
+To report the loading of a JavaScript file, you can:
 
 ```
 const logitdude = require('logitrightnowdude');
