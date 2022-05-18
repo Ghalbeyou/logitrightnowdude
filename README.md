@@ -1,45 +1,27 @@
 # log it dude!
-A new logger for node js!
+![1](https://img.shields.io/npm/l/logitrightnowdude)
+![2](https://img.shields.io/npm/dt/logitrightnowdude)
+![3](https://img.shields.io/npm/v/logitrightnowdude)
+![4](https://img.shields.io/github/followers/Ghalbeyou?style=social)
+<!-- A new logger for node js! -->
+A custom but cool logger in node js
 ## Installion
 to install, enter this command in the terminal:
 ```bash
 npm i logitrightnowdude
 ```
-and there we go! now it should make a folder called "node_module".
+and there we go! now it should install package called "logitrightnowdude".
 ## Usage
+```
+const { log, warning, error, custom } = require("logitrightnowdude");
 
-to log to console, you can do:
-
+log("hello this is a log from logitrightnowdude !")
+warning("hello this is a warning from logitrightnowdude !")
+error("hello this is a error from logitrightnowdude")
+custom("custom", "this is a custom message from logitrightnowdude")
 ```
-const logitdude = require('logitrightnowdude');
-logitdude.log("Log!");
-```
-
-to error to console, you can do:
-
-```
-const logitdude = require('logitrightnowdude');
-logitdude.error("Error!");
-```
-
-to warn to console, you can do:
-
-```
-const logitdude = require('logitrightnowdude');
-logitdude.warn("Warn!");
-```
-To report the loading of a JavaScript file, you can:
-
-```
-const logitdude = require('logitrightnowdude');
-logitdude.insall("filename.js");
-```
-to custom console log, you can do:
-
-```
-const logitdude = require('logitrightnowdude');
-logitdude.custom("type", "style css(not file!)", "msg");
-```
+## Problems
+If you want to use this app for electron(desktop app), then you need to allow nodeIntegration.
 ## licence
 MIT License
 
